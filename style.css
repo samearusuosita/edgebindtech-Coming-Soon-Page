@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@100;300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    
+  
+}
+
+html{
+    background:
+      linear-gradient(rgba(0,0,0,0),rgba(0,0,0,100)),
+      url('/img/Edgebind_BG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.logo img{
+    width: 120px;
+    height: 30px;
+    padding: 30px 35px;
+}
+
+.maintext{
+    padding-top: 140px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 100px;
+   
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    font-weight: 300;
+    color: white;
+    
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    letter-spacing: 2px;
+}
+
+button{
+    margin-top: 50px;
+    border: 2px solid;
+    border-color: #807d7d;
+    background-color: transparent;
+    padding: 14px 100px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    color: white;   
+}
+
+button:hover{
+    background: transparent;
+    border: 2px solid;
+    border-color: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,100));
+    
+}
